@@ -55,3 +55,43 @@ h2{
 .t_decor_overline{
     text-decoration:overline;
 }
+.t_indent{
+    text-indent:200px;
+}
+.l_height{
+    line-height:25px;
+}
+.f_family1{
+    font-family: cursive;
+}
+.f_family2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.f_family3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f_weight{
+    font: weight 2oo;;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.b_shadow{
+    box-shadow: 20px 10px 3px rgba(114, 78, 65, 0.671);
+    width: 500x;
+}
+.t_shadow{
+    text-shadow: 10px 0px 1px rgba(114,78,65,0.671);
+}
+.d_shadow{
+    filter: drop-shadow(10px 2px 1px rgb(97, 102, 72));
+}
+
+    
+
+.b_property{
+    border: 20px solid darkred;
+}
+.b_car{
+    border: 25px red;
+}
