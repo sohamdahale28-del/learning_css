@@ -95,3 +95,58 @@ h2{
 .b_car{
     border: 25px red;
 }
+.b_border1{
+    border: 10px solid black;
+    padding: 10px 20px 10px 20px;
+    margin: 50px 100px 50px 100px;
+}
+.i_border{
+    border: 20px solid black;
+    padding: 10px;
+    margin: 150px;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    border: 20px solid darkblue;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: brown;
+
+}
+.box2{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.box3{
+    position: absolute;
+    left: 600px;
+    top: 20px;
+}
+.box4{
+    position: sticky;
+    top: 20px;
+}
+.box5{
+    position: fixed;
+    right: 10px;
+    bottom:0px;
+}
+.linear{
+    height:500px;
+    background:linear-gradient(red,black);
+    bottom: 20px;;
+}
+.linear2{
+    height: 500px;
+    background:linear-gradient(to right red,black);
+}
+.radial{
+    height:200px;
+    background:radial-gradient(circle, black,white,blue,red);
+}
+.conic{
+    height:200px;
+    background:conic-gradient(from,90deg,red,black,green);
+}
