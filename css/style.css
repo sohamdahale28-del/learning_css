@@ -3,7 +3,8 @@ h4{
     background-color:rgb(0, 255, 64);
 }
 h1{
-    color:oklab(from color l a b);
+    color:oklab(black);
+    text-align: center;
     
 
     
@@ -149,4 +150,47 @@ h2{
 .conic{
     height:200px;
     background:conic-gradient(from,90deg,red,black,green);
+}
+.flex-items{
+    background-color: brown;
+    padding:10px;
+    margin: 10px;
+    width:200px;
+    height:150px;
+    margin-top:10px;
+    color:black;
+    font-size:50px;
+    border:5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    list-style:none;
+}
+.fles1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    list-style:none;
+    border:10px solid black;
+}
+.i_background{
+    background-color: black;
+    background-image: url(../images/car1.jpg);
+    background-size: cover;
+}
+.text_hover:active{
+    background-color: rgb(221, 61, 61);
+    border:10px solid green;
+    color:darkolivegreen;
+    
+}
+input:focus{
+    background-color: blue;
+    color-scheme:red;
 }
