@@ -5,9 +5,6 @@ h4{
 h1{
     color:oklab(black);
     text-align: center;
-    
-
-    
     font-size:100px;
 }
 h2{
@@ -187,10 +184,59 @@ h2{
 .text_hover:active{
     background-color: rgb(221, 61, 61);
     border:10px solid green;
-    color:darkolivegreen;
+    color:rgb(142, 212, 22);
     
 }
 input:focus{
     background-color: blue;
     color-scheme:red;
+}
+p::first-letter{
+    color: brown;
+    font-size: 50px;
+    
+}
+p::first-line{
+    color: blueviolet;
+    font-size:50px;
+}
+.b_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top:100px;
+
+}
+.s_box{
+    background-color: black;
+    color:wheat;
+    border-radius:10px;
+    height:200px;
+    width:200px;
+    font-size:30px;
+    padding: 20px;
+    border: 5px solid brown;
+    margin:20px;
+    transition:transform 3s ease-in;
+}
+.b1:hover{
+    transform: translate(225px,80px);
+}
+.b2:hover{
+    transform: translateX(300px);
+}
+.b3:hover{
+    transform: translateY(50px);
+
+}
+.b4:hover{
+    transform:rotate(7200deg);
+}
+.b5:hover{
+    transform: skew(200deg);
+
+}
+.b6:hover{
+    transform:scalex(-3.4);
 }
