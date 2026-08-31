@@ -231,7 +231,7 @@ p::first-line{
 
 }
 .b4:hover{
-    transform:rotate(7200deg);
+    transform:rotate(90200deg);
 }
 .b5:hover{
     transform: skew(200deg);
