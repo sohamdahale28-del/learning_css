@@ -7,6 +7,7 @@
     <style>
          .text-container{
             display: flex;
+            background-color: rgb(223, 214, 214);
             justify-content: center;
             font-family:Georgia, 'Times New Roman', Times, serif;
             font-size: 100px;
@@ -16,8 +17,8 @@
          }
          .text-container > b {
             height:120px;
-            box-shadow: 5px 2px 5px 2px black;
-            background:linear-gradient(to right,red ,black,blue);
+            box-shadow: 5px 2px 5px 2px rgb(26, 26, 27);
+            background:linear-gradient(to right,#a1f29c ,rgb(156, 117, 117),rgb(226, 95, 187));
             background-clip: text;
             color:transparent;
             transform-origin:center;
@@ -34,12 +35,50 @@
             10%,50%{transform:rotate(0deg)}
             60%,to{transform:rotate(7200deg)}
         }
+        .s_animation{
+        display : flex;
+        background-color: black;
+            justify-content: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 100px;
+            font-weight:700px;
+            letter-spacing:10px;
+            padding:200px;
+        }
+            
+       .s_animation>:nth-child(1){animation-delay:0;}
+        .s_animation>:nth-child(2){animation-delay:0.25s;}
+        .s_animation>:nth-child(3){animation-delay:0.50s;}
+        .s_animation>:nth-child(4) {animation-delay: 0.75s;}
+        .s_animation>:nth-child(5){animation-delay:1s;}
+          
+        .s_animation> b {
+            background-color: black;
+            height:120px;
+            box-shadow: 5px 2px 5px 2px rgb(77, 229, 189);
+            background:linear-gradient(to right,rgb(223, 92, 92) ,rgb(77, 229, 189));
+            background-clip: text;
+            color:transparent;
+            transform-origin:center;
+            animation:updown 10s infinite;
+         }
+ @keyframes updown{
+             from{transform:skew(360deg)}
+            10%,50%{transform:skew(0deg)}
+            60%,to{transform:skew(360deg)}
+            
+        }
+         
+        
     </style>
 </head>
 <body>
     <div class="text-container">
     <b>S</b><b>O</b><b>H</b><b>A</b><b>M</b>
     </div>
-    
+    <div class="s_animation">
+        <b>S</b><b>O</b><b>H</b><b>A</b><b>M</b> 
+        <b>D</b><b>A</b><b>H</b><b>A</b><b>L</b><b>E</b>
+    </div>
 </body>
 </html>
